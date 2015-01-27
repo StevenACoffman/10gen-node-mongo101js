@@ -2,8 +2,8 @@
 =====================
 
 My work to complete 10gen's MongoDB excellent University M101JS course
-(Jan 2015 edition). Note: I do not work for 10gen, nor did I contribute to the
-course's development.
+(Jan 2015 edition). Note: I do not work for 10gen, nor did I contribute
+to the course's development.
 
 =========================================================================================
 
