@@ -3,14 +3,11 @@ WEEK 1 Intro
 
 -   [Welcome to M101JS](www.youtube.com/watch?v=t5bQQL9d3Dg)
     -   Quiz
-
 -   [What is MongoDB?](https://www.youtube.com/watch?v=Lfl8hdQOi6Y#t=12)
     -   Quiz
-
 -   [MongoDB Relative to
     Relational](https://www.youtube.com/watch?v=-KIC1LXxcGM)
     -   Quiz
-
 -   [Overview of Building an App with
     MongoDB](https://www.youtube.com/watch?v=iIhgggzzeoA)
 
@@ -25,10 +22,8 @@ WEEK 1 Intro
 -   [Quick Introduction to the Mongo
     Shell](https://www.youtube.com/watch?v=j2v865GGS2A)
     -   Quiz
-
 -   [Introduction to JSON](https://www.youtube.com/watch?v=PTATjNSjbJ0)
     -   Quiz
-
 -   [Installing Node.js
     (mac)](https://www.youtube.com/watch?v=3-u5Ih7kd0A)
 
@@ -63,10 +58,8 @@ WEEK 1 Intro
 
 -   [JSON Revisited](https://www.youtube.com/watch?v=CTffxoSSLqg)
     -   Quiz
-
 -   [JSON Subdocuments](https://www.youtube.com/watch?v=vrYAEH3g13M)
     -   Quiz
-
 -   [JSON Spec](https://www.youtube.com/watch?v=kOrsT94-A28)
 
 -   [Introduction to Our Class Project, The
@@ -75,19 +68,14 @@ WEEK 1 Intro
 -   [Blog in Relational
     Tables](https://www.youtube.com/watch?v=boR2y9MHCa0)
     -   Quiz
-
 -   [Blog in Documents](https://www.youtube.com/watch?v=ZjwCzyqKVdY)
     -   Quiz
-
 -   [Introduction to Schema
     Design](https://www.youtube.com/watch?v=6XE3wZCPiZ8)
     -   Quiz
-
 -   [Homework 1.1](https://www.youtube.com/watch?v=sA-iH3IJ72o)
     -   Homework due Jan 13 17:00 UTC 2015
-
 -   Homework 1.2
     -   Homework due Jan 13 17:00 UTC 2015
-
 -   Homework 1.3
     -   Homework due Jan 13 17:00 UTC 2015

@@ -87,26 +87,36 @@ WEEK 2: CRUD
 -   [Node.js Driver: Using Dot
     Notation](https://www.youtube.com/watch?v=YNA4EnxgdQY)
     -   [Quiz](https://www.youtube.com/watch?v=6Iy7edNKl0Q)
--   [Node.js Driver: Skip, Limit and Sort](https://www.youtube.com/watch?v=GD78tbm_qvQ)
+-   [Node.js Driver: Skip, Limit and
+    Sort](https://www.youtube.com/watch?v=GD78tbm_qvQ)
     -   [Quiz](https://www.youtube.com/watch?v=t0runNOwPdY)
--   [Node.js Driver: Inserting, \_id](https://www.youtube.com/watch?v=zrDCLNYbKNU#t=10)
+-   [Node.js Driver: Inserting,
+    \_id](https://www.youtube.com/watch?v=zrDCLNYbKNU#t=10)
     -   [Quiz](https://www.youtube.com/watch?v=y_qyqkNuZMQ)
--   [Node.js Driver: Updating](https://www.youtube.com/watch?v=hf85eZvYosY)
+-   [Node.js Driver:
+    Updating](https://www.youtube.com/watch?v=hf85eZvYosY)
     -   [Quiz](https://www.youtube.com/watch?v=MNLN8k57lf0)
--   [Node.js Driver: Upserts](https://www.youtube.com/watch?v=msse79yvaEo)
+-   [Node.js Driver:
+    Upserts](https://www.youtube.com/watch?v=msse79yvaEo)
     -   [Quiz](https://www.youtube.com/watch?v=atzwFFtqsjA)
--   [Node.js Driver: findAndModify](https://www.youtube.com/watch?v=QnQxACsXrBk)
+-   [Node.js Driver:
+    findAndModify](https://www.youtube.com/watch?v=QnQxACsXrBk)
     -   [Quiz](https://www.youtube.com/watch?v=BxBa3Oos_LQ)
--   [Node.js Driver: Remove](https://www.youtube.com/watch?v=9Rl2-gzLy20)
+-   [Node.js Driver:
+    Remove](https://www.youtube.com/watch?v=9Rl2-gzLy20)
     -   [Quiz](https://university.mongodb.com/courses/10gen/M101JS/2015_January/courseware/Week_2_CRUD/52d07c36e2d423570a05ba04/)
 -   [Blog Introduction](https://www.youtube.com/watch?v=TcDqVQxYWZ0)
 
--   [Blog Application Architecture](https://www.youtube.com/watch?v=M8NCh6JqG8Q)
+-   [Blog Application
+    Architecture](https://www.youtube.com/watch?v=M8NCh6JqG8Q)
 
--   [Blog, Session Management](https://www.youtube.com/watch?v=C3CLiy5HkxE)
+-   [Blog, Session
+    Management](https://www.youtube.com/watch?v=C3CLiy5HkxE)
 
--   [Homework 2.1 Homework due Jan 20 17:00 UTC 2015](https://www.youtube.com/watch?v=SGIkso8KRhU)
-    - [Homework Answer](https://university.mongodb.com/courses/10gen/M101JS/2015_January/courseware/Week_2_CRUD/52d0820ae2d423570a05ba0e/)
+-   [Homework 2.1 Homework due Jan 20 17:00 UTC
+    2015](https://www.youtube.com/watch?v=SGIkso8KRhU)
+    -   [Homework
+        Answer](https://university.mongodb.com/courses/10gen/M101JS/2015_January/courseware/Week_2_CRUD/52d0820ae2d423570a05ba0e/)
 -   [Homework 2.2 (MongoProc Beta Version) Homework due Jan 20 17:00 UTC
     2015](https://www.youtube.com/watch?v=sSicXeEqVNY)
 
