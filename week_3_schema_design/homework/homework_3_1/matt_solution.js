@@ -1,3 +1,5 @@
+/* solution from mattcampbell */
+
 'use strict';
 
 var mongodb = require('mongodb'),

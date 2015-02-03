@@ -286,66 +286,84 @@ apply.
 
 ANSWER
 
-In MongoDB 2.6, all of these will work except for the last one, the reason being that forcing it to use the index means that it's using an index without an entry for documents without a 'title' field.
+In MongoDB 2.6, all of these will work except for the last one, the
+reason being that forcing it to use the index means that it's using an
+index without an entry for documents without a 'title' field.
 
-Prior to mongoDB 2.6, only the option that hinted { $natural : 1 } worked, as it would use a sparse index by default unless told not to.
+Prior to mongoDB 2.6, only the option that hinted { \$natural : 1 }
+worked, as it would use a sparse index by default unless told not to.
 
 QUIZ: GEOSPATIAL INDEXES
 ------------------------
 
-Suppose you have a 2D geospatial index defined on the key location in the collection places. Write a query that will find the closest three places (the closest three documents) to the location 74, 140.
+Suppose you have a 2D geospatial index defined on the key location in
+the collection places. Write a query that will find the closest three
+places (the closest three documents) to the location 74, 140.
 
-- **[ANSWER]**
-```javascript
-db.places.find( { location : { $near : [74,140] } }).limit(3)
-```
+-   **[ANSWER]**
+
+    ``` {.javascript}
+    db.places.find( { location : { $near : [74,140] } }).limit(3)
+    ```
 
 QUIZ: GEOSPATIAL SPHERICAL
 --------------------------
 
-What is the query that will query a collection named "stores" to return the stores that are within 1,000,000 meters of the location latitude=39, longitude=-130? Type the query in the box below. Assume the stores collection has a 2dsphere index on "loc" and please use the "$near" operator. Each store record looks like this:
+What is the query that will query a collection named "stores" to return
+the stores that are within 1,000,000 meters of the location latitude=39,
+longitude=-130? Type the query in the box below. Assume the stores
+collection has a 2dsphere index on "loc" and please use the "\$near"
+operator. Each store record looks like this:
 
-```json
+``` {.json}
 { "_id" : { "$oid" : "535471aaf28b4d8ee1e1c86f" }, "store_id" : 8, "loc" : { "type" : "Point", "coordinates" : [ -37.47891236119904, 4.488667018711567 ] } }
 ```
 
-- **[ANSWER]**
-```javascript
-db.stores.find({ loc:{ $near:	{ $geometry: { type: "Point", coordinates: [-130, 39]}, $maxDistance:1000000 } } })
-```
+-   **[ANSWER]**
+
+    ``` {.javascript}
+    db.stores.find({ loc:{ $near:   { $geometry: { type: "Point", coordinates: [-130, 39]}, $maxDistance:1000000 } } })
+    ```
 
 QUIZ: TEXT SEARCHES IN MONGODB
 ------------------------------
 
-You create a text index on the "title" field of the movies collection, and then perform the following text search:
+You create a text index on the "title" field of the movies collection,
+and then perform the following text search:
 
-```javascript
+``` {.javascript}
 db.movies.find( { $text : { $search : "Big Lebowski" } } )
 ```
 
-Which of the following documents will be returned, assuming they are in the movies collection? Check all that apply.
+Which of the following documents will be returned, assuming they are in
+the movies collection? Check all that apply.
 
-- **[ANSWER]**
-```json
-{ "title" : "The Big Lebowski" , star: "Jeff Bridges" }
-```
+-   **[ANSWER]**
 
-- **[ANSWER]**
-```json
-{ "title" : "Big" , star : "Tom Hanks" }
-```
+    ``` {.json}
+    { "title" : "The Big Lebowski" , star: "Jeff Bridges" }
+    ```
 
-- **[ANSWER]**
-```json
-{ "title" : "Big Fish" , star: "Ewan McGregor" }
-```
+-   **[ANSWER]**
+
+    ``` {.json}
+    { "title" : "Big" , star : "Tom Hanks" }
+    ```
+
+-   **[ANSWER]**
+
+    ``` {.json}
+    { "title" : "Big Fish" , star: "Ewan McGregor" }
+    ```
 
 QUIZ: PROFILING
 ---------------
 
-Write the query to look in the system profile collection for all queries that took longer than one second, ordered by timestamp descending.
+Write the query to look in the system profile collection for all queries
+that took longer than one second, ordered by timestamp descending.
 
-- **[ANSWER]** 
-```javascript
-db.system.profile.find({millis:{$gt:1000}}).sort({ts:-1})
-```
+-   **[ANSWER]**
+
+    ``` {.javascript}
+    db.system.profile.find({millis:{$gt:1000}}).sort({ts:-1})
+    ```

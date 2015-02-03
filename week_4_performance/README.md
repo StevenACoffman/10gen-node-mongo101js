@@ -51,28 +51,29 @@ WEEK 4: PERFORMANCE - [Introduction to Week
 -   [Geospatial
     Indexes](https://www.youtube.com/watch?v=UKUDYqNVL6I#t=20)
     -   [Quiz Answer](https://www.youtube.com/watch?v=hVLa0H7Oe98)
+-   [Geospatial Spherical](https://www.youtube.com/watch?v=pULU4DVsUWQ)
+    -   [Quiz Answer](https://www.youtube.com/watch?v=YtRnCyKS1VE)
+-   [Text Searches in
+    MongoDB](https://www.youtube.com/watch?v=l_2kwrIlZ_g)
+    -   [Quiz Answer](https://www.youtube.com/watch?v=7OK0e1gftjg)
+-   [Logging Slow Queries](https://www.youtube.com/watch?v=aWuvC-O7Qkk)
 
-- [Geospatial Spherical](https://www.youtube.com/watch?v=pULU4DVsUWQ)
-    - [Quiz Answer](https://www.youtube.com/watch?v=YtRnCyKS1VE)
+-   [Profiling](https://www.youtube.com/watch?v=pN1Yhrup9-I)
+    -   [Quiz Answer](https://www.youtube.com/watch?v=A4x4kE02pSc)
+-   [Mongotop](https://www.youtube.com/watch?v=D9YLXgy7NYo)
 
-- [Text Searches in MongoDB](https://www.youtube.com/watch?v=l_2kwrIlZ_g)
-    - [Quiz Answer]()
+-   [Mongostat](https://www.youtube.com/watch?v=eLWQO_AJmrI)
 
-Logging Slow Queries
+-   [Sharding Overview](https://www.youtube.com/watch?v=BDxT-VZdYqc)
 
-Profiling Quiz Answer
+-   [Homework 4.1 Homework due Feb 03 17:00 UTC
+    2015](https://www.youtube.com/watch?v=0tpXSPgYk4I)
 
-Mongotop
+-   [Homework 4.2 Homework due Feb 03 17:00 UTC
+    2015](https://www.youtube.com/watch?v=Zz8TerE95Ss)
 
-Mongostat
-
-Sharding Overview
-
-Homework 4.1 Homework due Feb 03 17:00 UTC 2015
-
-Homework 4.2 Homework due Feb 03 17:00 UTC 2015
-
-Homework 4.3 (MongoProc Beta Version) Homework due Feb 03 17:00 UTC 2015
+-   [Homework 4.3 (MongoProc Beta Version) Homework due Feb 03 17:00 UTC
+    2015]()
 
 Homework 4.3 (Manual Validation Version) Homework due Feb 03 17:00 UTC
 2015
