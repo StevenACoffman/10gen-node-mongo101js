@@ -1,0 +1,15 @@
+{
+  "name": "homework_5_4",
+  "version": "1.0.0",
+  "description": "Removing Rural Residents  In this problem you will calculate the number of people who live in a zip code in the US where the city starts with a digit. We will take that to mean they don't really live in a city. Once again, you will be using the zip code collection, which you will find in the 'handouts' link in this page. Import it into your mongod using the following command from the command line: ``` mongoimport -d test -c zips --drop zips.json ``` If you imported it correctly, you can go to the test database in the mongo shell and conform that ```javascript db.zips.count() ````",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^1.4.30"
+  }
+}

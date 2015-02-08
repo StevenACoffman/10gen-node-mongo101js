@@ -1,0 +1,11 @@
+{
+  "name": "homework_5_2_hands_on",
+  "version": "1.0.0",
+  "description": "HOMEWORK: HOMEWORK 5.2 (HANDS ON) ---------------------------------",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "homework_5_3_hands_on",
+  "version": "1.0.0",
+  "description": "Who's the easiest grader on campus? In this problem you will be analyzing a dataset of student grades. Please import grades_5-3.json into a database and collection of your choice.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^1.4.30"
+  }
+}

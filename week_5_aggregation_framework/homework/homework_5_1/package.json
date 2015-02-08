@@ -1,0 +1,11 @@
+{
+  "name": "homework_5_1",
+  "version": "1.0.0",
+  "description": "Finding the most frequent author of comments on your blog In this assignment you will use the aggregation framework to find the most frequent author of comments on your blog. We will be using the same dataset as last week.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
