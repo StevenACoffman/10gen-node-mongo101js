@@ -40,3 +40,9 @@ When to Denormalize
 | 1:Many       | Embed (from the many to the one) |
 | Many: 1      | Link (May cause duplication) |
 | Many: Many   | Link |
+
+
+# One to one relationships should be embedded in one document except when:
+- exceeds 16 mg
+- frequency of access
+- inconsistency is not tolerable
